@@ -17,7 +17,7 @@
   height: 100vh;
 
   main {
-    @apply max-w-full overflow-hidden pt-4;
+    @apply max-w-full pt-4;
   }
 }
 </style>

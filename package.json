@@ -11,6 +11,7 @@
     "lint": "prettier --write --list-different ."
   },
   "dependencies": {
+    "@yeger/vue-masonry-wall": "^5.0.14",
     "nuxt": "^3.12.4",
     "vue": "latest"
   },
