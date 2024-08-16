@@ -1,11 +1,10 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="default-layout">
     <Header></Header>
     <main>
-      <slot/>
+      <slot />
     </main>
   </div>
 </template>

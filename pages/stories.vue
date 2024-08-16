@@ -1,27 +1,11 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
     WORSTORIESK
     WORSTORIESKWORSTORIESKWORSTORIESKWORSTORIESKWORSTORIESKWORSTORIESKWORSTORIESKWORSTORIESKWORSTORIESKWORSTORIESKWORSTORIESKWORSTORIESKWORSTORIESKWORSTORIESKWORSTORIESKWORSTORIESK
-    WORK
-    WORK
-    WORK
-    WORK
-    WORK
-    WORK
-    WORK
-    WORK
-    WORK
-    WORK
-    WORK
-    WORK
-    WORK
-    WORK
-    WORK
+    WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK
   </div>
 </template>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

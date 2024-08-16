@@ -1,16 +1,15 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="header">
-    <img class="header__hero" src="/hero.png"></img>
+    <img class="header__hero" src="/hero.png" />
     <ul class="header__content">
       <NuxtLink to="/">About</NuxtLink>
       <NuxtLink to="/stories">Stories</NuxtLink>
       <NuxtLink to="/work">Work</NuxtLink>
     </ul>
 
-    <img class="header__img" src="/wave.png"></img>
+    <img class="header__img" src="/wave.png" />
   </div>
 </template>
 
@@ -20,7 +19,7 @@
   width: 100%;
   position: relative;
 
-  &__img{
+  &__img {
     @apply top-0 absolute object-top max-md:h-[340px] h-[400px] transition-all duration-300;
     z-index: -2;
     width: 100%;
@@ -32,7 +31,7 @@
     width: 380px;
   }
 
-  &__content{
+  &__content {
     @apply max-md:text-xl text-2xl font-sans;
     @apply flex justify-center gap-16 cursor-pointer;
     width: 100%;

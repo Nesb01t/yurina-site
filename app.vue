@@ -5,7 +5,8 @@
 </template>
 
 <style>
-body, main{
+body,
+main {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
