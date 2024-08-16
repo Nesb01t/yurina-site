@@ -6,18 +6,19 @@
     <main>
       <slot />
     </main>
+    <Footer></Footer>
   </div>
 </template>
 
 <style scoped>
 .default-layout {
+  @apply min-h-[100vh];
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
 
   main {
-    @apply max-w-full pt-4;
+    @apply max-w-full px-4 pt-4 pb-24;
   }
 }
 </style>

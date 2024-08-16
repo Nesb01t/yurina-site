@@ -37,12 +37,12 @@ const isCurrentPath = (path: string) => {
 
 <style lang="scss" scoped>
 .header {
-  @apply flex flex-col min-h-[270px] h-[270px] items-center gap-8 pt-8;
+  @apply flex flex-col min-h-[240px] h-[240px] items-center gap-8 pt-8 px-2;
   width: 100%;
   position: relative;
 
   &__img {
-    @apply top-0 absolute object-cover h-[270px] transition-all duration-300;
+    @apply top-0 absolute object-cover h-[240px] transition-all duration-300;
     z-index: -2;
     width: 100%;
   }
@@ -57,13 +57,18 @@ const isCurrentPath = (path: string) => {
   &__content {
     @apply max-w-[800px] w-full mt-auto mb-[-7px];
     @apply max-md:text-2xl text-3xl font-sans items-end;
-    @apply flex gap-16 cursor-pointer;
+    @apply flex gap-16;
     width: 100%;
     list-style: none;
     color: white;
 
     & {
       @apply transition-all duration-150;
+    }
+
+    a {
+      @apply cursor-pointer hover:scale-[110%] hover:translate-y-[-1px] transition-all duration-150;
+      @apply hover:text-purple-300;
     }
   }
 }

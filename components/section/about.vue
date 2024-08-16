@@ -6,7 +6,7 @@ const hobbies = ['唱', '跳', 'rap', '篮球']
   <div class="about-section">
     <div class="about-section__me">
       <div class="min-w-60 flex flex-col items-center gap-8 text-3xl">
-        <img src="/hero.png" />
+        <img src="/avatar.gif" />
         <div>Yurina</div>
       </div>
 
@@ -38,7 +38,7 @@ const hobbies = ['唱', '跳', 'rap', '篮球']
     @apply flex items-center;
 
     img {
-      @apply w-40 h-40 rounded-xl shadow-md;
+      @apply w-40 h-40;
     }
   }
 
