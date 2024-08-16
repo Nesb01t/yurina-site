@@ -33,8 +33,8 @@ const images = [
     <MasonryWall :gap="16" :column-width="300" :items="images">
       <template #default="{ item }">
         <img
-          class="w-full rounded-lg border border-neutral-300"
           :src="item.img"
+          class="w-full rounded-lg border border-neutral-300"
         />
       </template>
     </MasonryWall>
