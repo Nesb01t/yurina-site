@@ -58,6 +58,7 @@ const isCurrentPath = (path: string) => {
     @apply max-w-[800px] w-full mt-auto mb-[-7px];
     @apply max-md:text-2xl text-3xl font-sans items-end;
     @apply flex gap-16;
+    @apply font-serif;
     width: 100%;
     list-style: none;
     color: white;

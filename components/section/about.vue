@@ -1,4 +1,8 @@
 <script setup lang="ts">
+interface Hobby {
+  name: string
+  imgSrc: string
+}
 const hobbies = ['唱', '跳', 'rap', '篮球']
 </script>
 
@@ -12,8 +16,8 @@ const hobbies = ['唱', '跳', 'rap', '篮球']
 
       <div class="text-lg">
         你好，我是<br />
-        Yurina，喜欢唱，跳，rap，篮球，画画，做饭，吃饭，睡觉，打游戏，看电影<br />
-        看书，旅行，摄影，健身，瑜伽，冥想，学习，思考，分享，交流，成长，探索，创造，生活，生命。
+        Yurina，喜欢唱，跳，rap，篮球，画画<br />
+        看书，旅行，摄影，健身，瑜伽，冥想，学习，思考
       </div>
     </div>
 

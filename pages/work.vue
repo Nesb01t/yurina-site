@@ -4,7 +4,7 @@ import Work from '~/components/section/work.vue'
 
 <template>
   <div class="work-page">
-    <Work></Work>
+    <Work class="w-full"></Work>
   </div>
 </template>
 
