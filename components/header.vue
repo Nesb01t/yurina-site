@@ -37,17 +37,19 @@ const isCurrentPath = (path: string) => {
 
 <style lang="scss" scoped>
 .header {
-  @apply flex flex-col min-h-[240px] h-[240px] items-center gap-8 pt-8 px-2;
+  @apply flex flex-col min-h-[240px] h-[240px] items-center gap-8 pt-8 px-2 mb-2;
   width: 100%;
   position: relative;
 
   &__img {
     @apply top-0 absolute object-cover h-[240px] transition-all duration-300;
+    filter: blur(2px) brightness(0.6);
     z-index: -2;
     width: 100%;
   }
 
   &__hero {
+    @apply absolute top-[-45px];
     @apply drop-shadow-lg;
     z-index: -1;
     object-fit: cover;
