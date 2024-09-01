@@ -15,11 +15,20 @@ const readWork = async () => {
 onMounted(async () => {
   works.value = await readWork()
 })
+
+const onWorkClick = (work: any) => {
+  navigateTo(`/posts/${work.id}`)
+}
 </script>
 
 <template>
   <div class="work__cards">
-    <div v-for="card in works" :key="card.title" class="work__card">
+    <div
+      v-for="card in works"
+      :key="card.title"
+      class="work__card"
+      @click="onWorkClick(card)"
+    >
       <div class="flex flex-col flex-1 w-[calc(50%-24px)] max-w-[300px] mt-2">
         <div class="text-3xl">{{ card.title }}</div>
         <div class="text-lg w-auto max-w-[300px] text-wrap break-words">
