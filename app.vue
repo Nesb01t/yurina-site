@@ -1,5 +1,12 @@
 <script lang="ts" setup>
 import '~/assets/fonts/fonts.scss'
+
+const title = '聪明nes的建模糕手小屋'
+
+useHead({
+  title,
+  meta: [{ name: 'description', content: 'Page description' }],
+})
 </script>
 
 <template>
