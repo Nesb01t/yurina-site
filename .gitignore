@@ -1,3 +1,7 @@
+# mannually settings
+# https://www.toptal.com/developers/gitignore/api/node
+pnpm-lock.yaml
+
 # Nuxt dev/build outputs
 .output
 .data
