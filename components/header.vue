@@ -3,6 +3,7 @@ const paths = [
   { name: 'About', path: '/' },
   { name: 'Work', path: '/work' },
   { name: 'Art', path: '/Art' },
+  { name: 'Blog', path: '/blog' },
 ]
 
 const pathsWithoutCurrent = computed(() => {

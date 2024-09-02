@@ -8,7 +8,7 @@ const id = route.params.id
 const post = ref()
 const mdContent = ref()
 const readPost = async (id: string) => {
-  const res = await client.request(readItem('work_yurina', id))
+  const res = await client.request(readItem('blog_yurina', id))
   return res
 }
 

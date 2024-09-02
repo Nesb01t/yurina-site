@@ -3,6 +3,7 @@ import { createDirectus, rest } from '@directus/sdk'
 export const dirStaticConfig = {
   artCollection: 'art_yurina',
   workCollection: 'work_yurina',
+  blogCollection: 'blog_yurina',
   apiUrl: 'https://api.nescraft.cn',
 }
 

@@ -10,3 +10,10 @@ export interface IArt {
   title: string
   img: string
 }
+
+export interface IBlog {
+  id: number
+  title: string
+  sub_title: string
+  content: string
+}
