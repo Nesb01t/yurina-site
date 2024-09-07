@@ -10,7 +10,7 @@ import About from '@/components/section/about.vue'
 
 <style lang="scss" scoped>
 .about-page {
-  @apply flex flex-col max-w-[800px] items-center gap-8;
+  @apply flex flex-col mx-auto items-center gap-8;
   width: 100%;
   position: relative;
 }

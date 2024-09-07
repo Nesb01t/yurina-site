@@ -12,21 +12,26 @@ const onWorkClick = () => {
 
 <template>
   <div class="blog__card" @click="onWorkClick">
+    <div class="blog__card-image">
+      <img
+        class="object-cover w-full h-full"
+        :src="dirAssetsSrc(props.blog.image)"
+      />
+    </div>
     <h1>{{ props.blog.title }}</h1>
-    <h2>{{ props.blog.content }}</h2>
   </div>
 </template>
 
 <style lang="scss" scoped>
 .blog__card {
-  @apply p-4 rounded-lg shadow-sm cursor-pointer;
+  @apply p-2 cursor-pointer flex flex-col gap-2;
 
   h1 {
-    @apply text-2xl font-semibold;
+    @apply text-sm h-[24px] line-clamp-1;
   }
 
-  h2 {
-    @apply text-lg;
+  &-image {
+    @apply w-full h-[170px] rounded-lg overflow-hidden;
   }
 }
 </style>

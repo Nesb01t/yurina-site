@@ -18,7 +18,7 @@
   align-items: center;
 
   main {
-    @apply max-w-[800px] w-full px-4 pt-4 pb-24;
+    @apply max-w-[1280px] w-full px-4 pt-4 pb-24;
   }
 }
 </style>

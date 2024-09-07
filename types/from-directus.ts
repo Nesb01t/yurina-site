@@ -16,4 +16,5 @@ export interface IBlog {
   title: string
   sub_title: string
   content: string
+  image: string
 }

@@ -10,6 +10,6 @@ import Blog from '@/components/section/blog.vue'
 
 <style lang="scss" scoped>
 .blog-page {
-  @apply max-w-[800px] w-full;
+  @apply w-full;
 }
 </style>

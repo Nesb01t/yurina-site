@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@directus/sdk": "^17.0.0",
+    "@nuxt/icon": "^1.5.1",
     "@tailwindcss/typography": "^0.5.15",
     "@yeger/vue-masonry-wall": "^5.0.14",
     "markdown-it": "^14.1.0",
