@@ -10,6 +10,6 @@ import Art from '@/components/section/art.vue'
 
 <style lang="scss" scoped>
 .art-page {
-  @apply max-w-[800px] w-full;
+  @apply max-w-[768px] mx-auto w-full;
 }
 </style>

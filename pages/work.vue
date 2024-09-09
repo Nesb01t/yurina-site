@@ -10,7 +10,7 @@ import Work from '~/components/section/work.vue'
 
 <style lang="scss" scoped>
 .work-page {
-  @apply max-w-[800px];
+  @apply max-w-[800px] mx-auto;
   width: 100%;
   position: relative;
 }
