@@ -1,7 +1,8 @@
 <script lang="ts" setup>
 import '~/assets/fonts/fonts.scss'
 
-const title = '聪明nes的建模糕手小屋'
+const isOnline = true
+const title = isOnline ? 'Yurina 美术印象屋' : '聪明nes的建模糕手小屋'
 
 useHead({
   title,
