@@ -19,7 +19,7 @@ onMounted(async () => {
 
 <template>
   <div class="art" v-if="arts">
-    <div class="w-[768px] my-4 rounded-lg overflow-hidden shadow-lg">
+    <!-- <div class="w-[768px] my-4 rounded-lg overflow-hidden shadow-lg">
       <iframe
         class="w-full h-[400px]"
         src="//player.bilibili.com/player.html?isOutside=true&aid=112830686693061&bvid=BV1yt8tepEDZ&cid=500001623941614&p=1"
@@ -29,7 +29,7 @@ onMounted(async () => {
         framespacing="0"
         allowfullscreen="true"
       ></iframe>
-    </div>
+    </div> -->
     <MasonryWall :gap="16" :column-width="300" :items="arts">
       <template #default="{ item }">
         <img
