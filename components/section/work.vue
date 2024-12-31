@@ -36,7 +36,7 @@ const onWorkClick = (work: any) => {
         </div>
       </div>
       <img
-        class="ml-auto block min-w-1/2 w-1/2 max-w-[400px] h-[140px] rounded-lg border border-neutral-300"
+        class="ml-auto object-cover block min-w-1/2 w-1/2 max-w-[400px] h-[140px] rounded-lg border border-neutral-300"
         :src="dirAssetsSrc(card.img)"
       />
     </div>
